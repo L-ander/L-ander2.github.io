@@ -1,0 +1,92 @@
+body {
+    background-image: url(background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    color: white ;
+    background-color: black ;
+    padding: 20px ;
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.cont a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+
+.fondo {
+    background-color: rgba(0, 0, 0, 0.74);
+    padding: 20px;
+    margin: 1vw;
+    color: white;
+    font-size: 25px;
+}
+
+.imagencentro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    width: 1300px;
+    height: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5 ease;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 420px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.bajo {
+    color: white ;
+    background-color: black ;
+    padding: 30px ;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bajo a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+h6{
+    font-size: 25px;
+    text-align: center;
+}
